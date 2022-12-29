@@ -14,8 +14,4 @@ for _ in range(K):
     else:
         stack.append(A)
 
-# 스택에 남아 있는 수들 result에 더하기
-for i in stack:
-    result += i
-
-print(result)
+print(sum(stack))
